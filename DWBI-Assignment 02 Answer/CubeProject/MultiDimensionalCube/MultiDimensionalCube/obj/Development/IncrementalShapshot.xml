@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultiDimensionalCube</Database>
+    <Server>SAUMYA-PC\MSSQLSERVERNEW</Server>
+    <ConnectionString>Data Source=SAUMYA-PC\MSSQLSERVERNEW;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>+/fPeRota6phFZK9zAoSegxgwA8=5/11/2020 12:55:48 PM5/11/2020 12:55:48 PM</TimeStamp>
+        <ID>
+          <String>DWBI Data Wear House</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>WfRnjXLUx5chUHneJIecaeS4Z4s=5/11/2020 12:57:40 PM5/11/2020 12:56:10 PM</TimeStamp>
+        <ID>
+          <String>DWBI Data Wear House</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yaD1Ycscfza6cogPzAwEefXesTA=5/11/2020 12:59:18 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>Sets Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8ILgYEPXU7f+r/QQDbpwKheUt2Y=5/11/2020 12:59:46 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>Inventory Sets Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c4AM+iVU4Jyg8OEMsdI7Hv/Nkqw=5/11/2020 1:00:09 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>Themes Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vxREIoLLSf23x7Mwlt0kf1gTT0c=5/11/2020 1:00:42 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>Part Categories Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qJ+821WCQosrAfJ55Tohwv5Z7OM=5/11/2020 1:51:13 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>Colors Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>KELaSPErrfd+BmOm+1ZUHvJZK4A=5/11/2020 1:51:13 PM5/11/2020 12:58:45 PM/iIFFsASXynQVhReIuY2KgXA8oM=5/11/2020 12:58:46 PM5/11/2020 12:58:45 PM</TimeStamp>
+        <ID>
+          <String>DWBI Data Wear House Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>VPs7PdzF6nyy+iykklJFrLjz6aY=5/11/2020 1:04:34 PM5/11/2020 1:04:14 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>8+Ll7qu6/oZpNZ+b2UnKXYMsCm8=5/11/2020 1:04:34 PM5/10/2020 10:05:13 PM</TimeStamp>
+      <ID>
+        <String>MultiDimensionalCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-05-11T08:21:25.846667Z</LastDeployed>
+</DeploymentSnapshot>

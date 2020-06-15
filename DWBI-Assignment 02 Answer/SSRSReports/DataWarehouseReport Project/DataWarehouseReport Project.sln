@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "DataWarehouseReport Project", "DataWarehouseReport Project\DataWarehouseReport Project.rptproj", "{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Debug|Default.ActiveCfg = Debug
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Debug|Default.Build.0 = Debug
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Debug|Default.Deploy.0 = Debug
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.DebugLocal|Default.Build.0 = DebugLocal
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Release|Default.ActiveCfg = Release
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Release|Default.Build.0 = Release
+		{9ADE1A32-10FB-4C35-9340-8A8FFEF48B66}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {271F4C86-F916-4DC0-B4C9-D700080DE05C}
+	EndGlobalSection
+EndGlobal
